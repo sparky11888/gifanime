@@ -1,0 +1,23 @@
+<div class=linkbar>
+	<a href="/userdetails/{{user}}">{{user}}</a>
+	<a href="/">Home</a>
+	<a href="{{loginlink}}">{{loginstatus}}</a>
+
+</div>
+
+<h1>{{head}}</h1>
+<h2 class="extramessage">{{error}}</h2>
+
+<form method="POST" action="/uploadgifs" class="loginform">
+	<div class="formlabel">Title</div>
+	<div><input class="textbox" type="text" name = "title"></div>
+	<div class="formlabel">URL</div>
+	<div><input class="textbox" type="text" name="url"></div>
+	
+	<div class="formlabel">Tags</div>
+	<div><input class="textbox" type="text" name="tags"></div>
+	
+	<div class="formlabel">Private? <input type="checkbox" name="private" value="true"></div>
+	
+	<div><input type="submit" value="Add Image"class="button"></div>
+</form>

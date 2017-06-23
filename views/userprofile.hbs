@@ -1,0 +1,35 @@
+<script>
+	document.addEventListener('DOMContentLoaded',function(){
+		var posts = document.querySelector('.posts');
+		if (posts.childNodes.length<=1){
+			var noposts = document.createElement('h2');
+			var text = document.createTextNode("You have made no postings :'(");
+			noposts.appendChild(text);
+			var body = document.body;
+			noposts.setAttribute('class','extramessage');
+			body.insertBefore(noposts,posts);
+			console.log("Ran");
+		}
+	});
+</script>
+
+<div class="linkbar">
+<a href="/uploadgifs">Upload Gif</a>
+<a href="/">Home</a>
+<a href="{{loginlink}}">{{loginstatus}}</a>
+</div>
+
+<h1>{{user.user}}'s Posts</h1>
+
+<!--<h3>Joined {{user.date}}</h3>
+<h3>Your Profile has an overall {{user.sentiment}}</h3>!-->
+
+<ul class=posts>
+	{{#each user.posts}}
+		<div class="postblock">
+			<p><a href="../userdetails/{{../user.user}}/{{this.gifslug}}">{{this.title}}</a></p>
+			<img src={{this.url}} height="250em">
+			<p id="postdate">Posted on {{this.date}}</p>
+		</div>
+	{{/each}}
+</ul>

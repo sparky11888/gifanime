@@ -1,0 +1,22 @@
+<div class="linkbar">
+<a href="/createlogin">Don't have a Profile Yet?</a>
+<a href="/">Home</a>
+</div>
+
+<h1>{{title}}</h1>
+<h2 class="extramessage">{{error}}</h2>
+
+
+<form method="POST" action="/login" class="loginform">
+	<div class="formlabel">Username</div>
+	<div>
+		<input type="text" name="username" class="textbox">
+	</div>
+	<div class="formlabel">Password</div>
+	<div>
+		<input type="password" name="password" class="textbox">
+	</div>
+	<div>
+		<input type="submit" value="Login" class="button">
+	</div>
+</form>

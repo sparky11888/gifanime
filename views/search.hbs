@@ -1,0 +1,36 @@
+<script>
+	document.addEventListener('DOMContentLoaded',function(){
+		var user = document.getElementById('username');
+		if(user.textContent==undefined||user.textContent==""){
+			user.setAttribute('style','display:none;');
+		}
+		
+	});
+</script>
+
+<div class="linkbar">
+<a href="/uploadgifs">Upload Image</a>
+<a href="/userdetails/{{user}}" id='username'>{{user}}</a>
+<a href="{{loginlink}}">{{loginstatus}}</a>
+<a href="/">Home</a>
+</div>
+
+<h1>{{title}}</h1>
+<h2 class="extramessage">{{message}}</h2>
+<h2 class="extramessage">{{error}}</h2>
+
+<h3 class="extramessage">You searched: <element style="font-weight:normal;">{{search}}</element></h3>
+
+<form method="GET" action="/searchresults" class="searchform">
+	<input type="text" name="search" id="searchbar">
+	<input type="submit" value="Search" id="searchbutton" class="button">
+</form>
+
+
+
+<ul class=posts>
+{{#each posts}}
+	<img src={{this.gif.url}} alt="{{this.gif.caption}}" height="200em">
+{{/each}}
+</ul>
+

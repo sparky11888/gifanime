@@ -1,0 +1,33 @@
+<div class="linkbar">
+		<a href="../{{user}}">Return to Profile</a>
+		
+		<a href="/">Home</a>
+		<a href="{{loginlink}}">{{loginstatus}}</a>
+</div>
+	
+<html>
+<head>
+	<script type="text/javascript" src="/javascripts/editimage.js"></script>
+</head>
+<body>
+	<p id="user" style="display:none">{{user.user}}</p>
+	<h1>{{head}}</h1>
+	<h2 class="extramessage">{{error}}</h1>
+	<div id="imgdets">
+		<h2 id='uploadtitle'>{{upload.title}}</h2>
+		<img  src={{upload.url}} alt={{upload.title}}>
+	</div>
+	<div id="editdelete">
+		<form method="GET" action="/editimage" id="edit">
+			<input type="submit" value="Edit" id="editbtn" class="button">
+			<input id='slug' type="hidden" name="slug" value={{upload.gifslug}}>
+		</form>
+
+		<form method="POST" action="/deleteimage">
+			<input type="submit" value="Delete" class="button">
+			<input type="hidden" name="slug" value={{upload.gifslug}}>
+		</form>
+	</div>
+	
+</body>
+</html>

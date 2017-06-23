@@ -1,0 +1,24 @@
+<div class="linkbar">
+<a href="/login">Already have a Profile?</a>
+
+
+<a href="/">Home</a>
+</div>
+
+<h1>{{title}}</h1>
+<h2>{{error}}</h2>
+
+<form method="POST" action="/createlogin" class="loginform">
+	<div class="formlabel">First Name</div>
+	<div><input type="text" name="firstname" class="textbox"></div>
+	<div class="formlabel">Last Name</div>
+	<div><input type="text" name="lastname" class="textbox"></div>
+	<div class="formlabel">Email</div>
+	<div><input type="text" name="email" class="textbox"></div>
+	<div class="formlabel">Username</div>
+	<div><input type="text" name="username" class="textbox"></div>
+	<div class="formlabel">Password</div>
+	<div><input type="password" name="password" class="textbox"></div>
+	<div ><input type="submit" value="Create Profile" class="button"></div>
+</form>
+
