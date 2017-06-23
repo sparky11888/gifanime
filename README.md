@@ -32,7 +32,7 @@ Requirements
 Wireframes
 
 - Home Screen
-![home](../public/images/Home.jpg?raw=true =600px "Home Screen")
+![home](/../public/images/Home.jpg?raw=true =600px "Home Screen")
 - Search Screen
 ![search](../public/images/Search.jpg?raw=true =600px "Search Screen")
 - Post Details Screen
