@@ -32,17 +32,17 @@ Requirements
 Wireframes
 
 - Home Screen
-<img alt="Home Screen" src="public/images/Home.jpg" width="300px">
+<img alt="Home Screen" src="public/images/Home.jpg" width="500px">
 - Search Screen
-<img alt="Search Screen" src="public/images/Search.jpg" width="300px">
+<img alt="Search Screen" src="public/images/Search.jpg" width="500px">
 - Post Details Screen
-<img alt="Post Details" src="public/images/PostDetails.jpg" width="300px">
+<img alt="Post Details" src="public/images/PostDetails.jpg" width="500px">
 
 - Upload Screen
-<img alt="Upload Screen" src="public/images/Upload.jpg" width="300px">
+<img alt="Upload Screen" src="public/images/Upload.jpg" width="500px">
 
 Site Map
-<img alt="Site Map" src="public/images/Sitemap-1.jpg" width="300px">
+<img alt="Site Map" src="public/images/Sitemap-1.jpg" width="500px">
 
 Webiste Function
 - Example Use Case 1 - As someone who uses a lot of GIFS and likes anime, I want multiple GIF images from specific anime shows, so that I can have a matching theme of gifs in my presentation, emails, tumblr posts, etc. So, let me go to gifanime's website and find an anime gif! I really want a Naruto gif, so let me search "naruto" or click on the super popular "naruto" tag. Wow! Look at all the naruto gifs I can choose from and use for my email. 
