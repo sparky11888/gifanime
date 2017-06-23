@@ -32,13 +32,13 @@ Requirements
 Wireframes
 
 - Home Screen
-![home](public/images/Home.jpg?raw=true =600px "Home Screen")
+![home](../public/images/Home.jpg?raw=true =600px "Home Screen")
 - Search Screen
-![search](/public/images/Search.jpg?raw=true =600px "Search Screen")
+![search](../public/images/Search.jpg?raw=true =600px "Search Screen")
 - Post Details Screen
-![details](/public/images/PostDetails.jpg?raw=true =600px "Post Details")
+![details](../public/images/PostDetails.jpg?raw=true =600px "Post Details")
 - Upload Screen
-![upload](/public/images/Upload.jpg?raw=true =600px "Upload Screen")
+![upload](../public/images/Upload.jpg?raw=true =600px "Upload Screen")
 
 Site Map
 ![sitemap](/public/images/Sitemap-1.jpg?raw=true =600px "Site Map")
