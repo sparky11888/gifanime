@@ -38,10 +38,11 @@ Wireframes
 - Post Details Screen
 ![details](public/images/PostDetails.jpg "Post Details")
 - Upload Screen
-![upload](public/images/Upload.jpg=600px "Upload Screen")
+![upload](public/images/Upload.jpg "Upload Screen")
 
 Site Map
-![sitemap](public/images/Sitemap-1.jpg =600px "Site Map")
+![sitemap](public/images/Sitemap-1.jpg "Site Map")
+<img src="public/images/Sitemap-1.jpg" width="300px">
 
 Webiste Function
 - Example Use Case 1 - As someone who uses a lot of GIFS and likes anime, I want multiple GIF images from specific anime shows, so that I can have a matching theme of gifs in my presentation, emails, tumblr posts, etc. So, let me go to gifanime's website and find an anime gif! I really want a Naruto gif, so let me search "naruto" or click on the super popular "naruto" tag. Wow! Look at all the naruto gifs I can choose from and use for my email. 
