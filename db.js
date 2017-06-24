@@ -18,7 +18,6 @@ if (process.env.NODE_ENV == 'PRODUCTION') {
  // if we're not in PRODUCTION mode, then use
 // dbconf = 'mongodb://localhost/gifanime';
 	dbconf = process.env.MONGOLAB_URI;
-	
 }
 mongoose.plugin(slug);
 mongoose.connect(dbconf);
